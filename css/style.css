@@ -60,8 +60,12 @@ a {
 	color: white;
 }
 
-h1 a {
+h1 a, h2 a {
 	color: rgb(0,255,0);
+}
+
+h2 {
+	font-size: 30px;
 }
 
 /*span.space a {
