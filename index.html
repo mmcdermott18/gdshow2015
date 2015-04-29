@@ -71,64 +71,77 @@
     </script>
     <script type="text/javascript">
     	$( document ).ready(function() {
-    		var topcw = $('#cw').position().top;
+    		var topcw = $('#cw').position();
     		console.log('cw = ' + topcw);
-    		var topmk = $('#mk').position().top;
+    		var topmk = $('#mk').position();
     		console.log('mk = ' + topmk)
-    		var topod = $('#od').position().top;
+    		var topod = $('#od').position();
     		console.log('od = ' + topod)
-    		var toppl = $('#pl').position().top;
+    		var toppl = $('#pl').position();
     		console.log('pl = ' + toppl)
-    		var topss = $('#ss').position().top;
+    		var topss = $('#ss').position();
     		console.log('ss = ' + topss)
-    		var toprh = $('#rh').position().top;
+    		var toprh = $('#rh').position();
     		console.log('rh = ' + toprh)
-    		var topap = $('#ap').position().top;
+    		var topap = $('#ap').position();
     		console.log('ap = ' + topap)
-    		var topkw = $('#kw').position().top;
+    		var topkw = $('#kw').position();
     		console.log('kw = ' + topkw)
-    		var topcf = $('#cf').position().top;
+    		var topcf = $('#cf').position();
     		console.log('cf = ' + topcf)
-    		var topjb = $('#jb').position().top;
+    		var topjb = $('#jb').position();
     		console.log('jb = ' + topjb)
-    		var topvj = $('#vj').position().top;
+    		var topvj = $('#vj').position();
     		console.log('vj = ' + topvj)
-    		var topmm = $('#mm').position().top;
+    		var topmm = $('#mm').position();
     		console.log('mm = ' + topmm)
-    		var topkg = $('#kg').position().top;
+    		var topkg = $('#kg').position();
     		console.log('kg = ' + topkg)
     		var scroll_pos = 0;
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
-                if(scroll_pos < topcw) {
+                if(scroll_pos < topcw.top) {
                     $("#title").text("Parallel Practices");
-                }if(scroll_pos > topcw) {
+                    console.log(topcw.top);
+                }if(scroll_pos > topcw.top) {
                     $("#title").text("Christina Webb");
-                }if(scroll_pos > topmk) {
+                    console.log(topcw.top);
+                }if(scroll_pos > topmk.top) {
                     $("#title").text("Minkyoung Kim");
-                }if(scroll_pos > topod) {
+                    console.log(topmk.top);
+                }if(scroll_pos > topod.top) {
                     $("#title").text("Ojus Doshi");
-                }if(scroll_pos > toppl) {
+                    console.log(topod.top);
+                }if(scroll_pos > toppl.top) {
                     $("#title").text("Prin Limphongpand");
-                }if(scroll_pos > topss) {
+                    console.log(toppl.top);
+                }if(scroll_pos > topss.top) {
                     $("#title").text("Soohyun Shin");
-                }if(scroll_pos > toprh) {
+                    console.log(topss.top);
+                }if(scroll_pos > toprh.top) {
                     $("#title").text("Rachel Harris");
-                }if(scroll_pos > topap) {
+                    console.log(toprh.top);
+                }if(scroll_pos > topap.top) {
                     $("#title").text("Amanda Pickens");
-                }if(scroll_pos > topkw) {
+                    console.log(topap.top);
+                }if(scroll_pos > topkw.top) {
                     $("#title").text("Kelly Walters");
-                }if(scroll_pos > topcf) {
+                    console.log(topkw.top);
+                }if(scroll_pos > topcf.top) {
                     $("#title").text("Conrad Fulbrook");
-                }if(scroll_pos > topjb) {
+                    console.log(topcf.top);
+                }if(scroll_pos > topjb.top) {
                     $("#title").text("Jamar Bromley");
-                }if(scroll_pos > topvj) {
+                    console.log(topjb.top);
+                }if(scroll_pos > topvj.top) {
                     $("#title").text("Viviane Jalil");
-                }if(scroll_pos > topmm) {
+                    console.log(topvj.top);
+                }if(scroll_pos > topmm.top) {
                     $("#title").text("Michael McDermott");
-                }if(scroll_pos > topkg) {
+                    console.log(topmm.top);
+                }if(scroll_pos > topkg.top) {
                     $("#title").text("Kyle Green");
-                    console.log(topkg);
+                    console.log(topkg.top);
                 } 
             });
     	});
