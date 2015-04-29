@@ -75,6 +75,15 @@ h2 {
 
 }
 
+.close {
+	text-align: right;
+	cursor: pointer;
+}
+
+.close a {
+	color: white;
+}
+
 /*span.space a {
 	color: rgb(0,255,0);
 }*/
@@ -120,6 +129,21 @@ span.space {
 @media only screen and (max-width: 600px) {
 	h2 {
 		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 1.3em;
+	}
+	sup {
+		line-height: 1em;
+		font-size: .7em;
+	}
+	#names {
+		padding-top: 7vh;
+		padding-bottom: 20px;
+	}
+	footer h2 {
+		font-size: 30px;
 	}
 }
 
