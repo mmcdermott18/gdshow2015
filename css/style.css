@@ -84,6 +84,7 @@ a:hover {
 #cw, #mk, #od, #pl, #ss, #rh, #ap, #kw, #cf, #jb, #vj, #mm, #kg {
 	width: 100%;
 	height: 100%;
+	display: inline-block;
 }
 
 img {
