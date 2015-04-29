@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallel Practices</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+</head>
+<!-- onload="pageScroll()" -->
+<body>
+	<div id="container">
+		<div id="abstract"><h1>IF YOU DON'T LIKE THIS SITE THEN FUCK YOU.</h1></div>
+		<header>
+			<div id="headright">
+				<h1 id="title"><a id="mmal">Parallel Practices</a></h1>
+			</div>
+		</header>
+	</div>
+	<!-- </div> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+	<script>
+    	$(document).ready(function(){
+			$('#mmal').click(function() {
+       			$('#abstract').toggle();
+        	});
+		});
+	</script>
+	<script type="text/javascript">
+		function pageScroll() {
+    		window.scrollBy(0,1); // horizontal and vertical scroll increments
+    		scrolldelay = setTimeout('pageScroll()',10); // scrolls every 100 milliseconds
+		}
+	</script>
+</body>
+</html>
