@@ -69,6 +69,12 @@
 			});
 		});
     </script>
+    <script>
+    	$(document).ready(function(){
+    		var bottom = $(document).height();
+     		$('body,html').animate({scrollTop: bottom}, 200000, 'linear'); 
+		});
+	</script>
     <script type="text/javascript">
     	$( document ).ready(function() {
     		var scroll_pos = 0;
