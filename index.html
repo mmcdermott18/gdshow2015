@@ -72,18 +72,31 @@
     <script type="text/javascript">
     	$( document ).ready(function() {
     		var topcw = $('#cw').position().top;
+    		console.log('cw = ' + topcw);
     		var topmk = $('#mk').position().top;
+    		console.log('mk = ' + topmk)
     		var topod = $('#od').position().top;
+    		console.log('od = ' + topod)
     		var toppl = $('#pl').position().top;
+    		console.log('pl = ' + toppl)
     		var topss = $('#ss').position().top;
+    		console.log('ss = ' + topss)
     		var toprh = $('#rh').position().top;
+    		console.log('rh = ' + toprh)
     		var topap = $('#ap').position().top;
+    		console.log('ap = ' + topap)
     		var topkw = $('#kw').position().top;
+    		console.log('kw = ' + topkw)
     		var topcf = $('#cf').position().top;
+    		console.log('cf = ' + topcf)
     		var topjb = $('#jb').position().top;
+    		console.log('jb = ' + topjb)
     		var topvj = $('#vj').position().top;
+    		console.log('vj = ' + topvj)
     		var topmm = $('#mm').position().top;
+    		console.log('mm = ' + topmm)
     		var topkg = $('#kg').position().top;
+    		console.log('kg = ' + topkg)
     		var scroll_pos = 0;
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
@@ -115,6 +128,7 @@
                     $("#title").text("Michael McDermott");
                 }if(scroll_pos > topkg) {
                     $("#title").text("Kyle Green");
+                    console.log(topkg);
                 } 
             });
     	});
