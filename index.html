@@ -71,67 +71,67 @@
     </script>
     <script type="text/javascript">
     	$( document ).ready(function() {
-    		var topcw = $('#cw').position().top;
-    		console.log('cw = ' + topcw);
-    		var topmk = $('#mk').position().top;
-    		console.log('mk = ' + topmk)
-    		var topod = $('#od').position().top;
-    		console.log('od = ' + topod)
-    		var toppl = $('#pl').position().top;
-    		console.log('pl = ' + toppl)
-    		var topss = $('#ss').position().top;
-    		console.log('ss = ' + topss)
-    		var toprh = $('#rh').position().top;
-    		console.log('rh = ' + toprh)
-    		var topap = $('#ap').position().top;
-    		console.log('ap = ' + topap)
-    		var topkw = $('#kw').position().top;
-    		console.log('kw = ' + topkw)
-    		var topcf = $('#cf').position().top;
-    		console.log('cf = ' + topcf)
-    		var topjb = $('#jb').position().top;
-    		console.log('jb = ' + topjb)
-    		var topvj = $('#vj').position().top;
-    		console.log('vj = ' + topvj)
-    		var topmm = $('#mm').position().top;
-    		console.log('mm = ' + topmm)
-    		var topkg = $('#kg').position().top;
-    		console.log('kg = ' + topkg)
     		var scroll_pos = 0;
     		console.log('scroll position = ' + scroll_pos)
-            // $(document).scroll(function() { 
-            //     scroll_pos = $(this).scrollTop();
-            //     if(scroll_pos < topcw) {
-            //         $("#title").text("Parallel Practices");
-            //     }if(scroll_pos > topcw) {
-            //         $("#title").text("Christina Webb");
-            //     }if(scroll_pos > topmk) {
-            //         $("#title").text("Minkyoung Kim");
-            //     }if(scroll_pos > topod) {
-            //         $("#title").text("Ojus Doshi");
-            //     }if(scroll_pos > toppl) {
-            //         $("#title").text("Prin Limphongpand");
-            //     }if(scroll_pos > topss) {
-            //         $("#title").text("Soohyun Shin");
-            //     }if(scroll_pos > toprh) {
-            //         $("#title").text("Rachel Harris");
-            //     }if(scroll_pos > topap) {
-            //         $("#title").text("Amanda Pickens");
-            //     }if(scroll_pos > topkw) {
-            //         $("#title").text("Kelly Walters");
-            //     }if(scroll_pos > topcf) {
-            //         $("#title").text("Conrad Fulbrook");
-            //     }if(scroll_pos > topjb) {
-            //         $("#title").text("Jamar Bromley");
-            //     }if(scroll_pos > topvj) {
-            //         $("#title").text("Viviane Jalil");
-            //     }if(scroll_pos > topmm) {
-            //         $("#title").text("Michael McDermott");
-            //     }if(scroll_pos > topkg) {
-            //         $("#title").text("Kyle Green");
-            //         console.log(topkg);
-            //     } 
-            // });
+            $(document).scroll(function() {
+            	var topcw = $('#cw').position().top;
+	    		console.log('cw = ' + topcw);
+	    		var topmk = $('#mk').position().top;
+	    		console.log('mk = ' + topmk)
+	    		var topod = $('#od').position().top;
+	    		console.log('od = ' + topod)
+	    		var toppl = $('#pl').position().top;
+	    		console.log('pl = ' + toppl)
+	    		var topss = $('#ss').position().top;
+	    		console.log('ss = ' + topss)
+	    		var toprh = $('#rh').position().top;
+	    		console.log('rh = ' + toprh)
+	    		var topap = $('#ap').position().top;
+	    		console.log('ap = ' + topap)
+	    		var topkw = $('#kw').position().top;
+	    		console.log('kw = ' + topkw)
+	    		var topcf = $('#cf').position().top;
+	    		console.log('cf = ' + topcf)
+	    		var topjb = $('#jb').position().top;
+	    		console.log('jb = ' + topjb)
+	    		var topvj = $('#vj').position().top;
+	    		console.log('vj = ' + topvj)
+	    		var topmm = $('#mm').position().top;
+	    		console.log('mm = ' + topmm)
+	    		var topkg = $('#kg').position().top;
+	    		console.log('kg = ' + topkg)
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos < topcw) {
+                    $("#title").text("Parallel Practices");
+                }if(scroll_pos > topcw) {
+                    $("#title").text("Christina Webb");
+                }if(scroll_pos > topmk) {
+                    $("#title").text("Minkyoung Kim");
+                }if(scroll_pos > topod) {
+                    $("#title").text("Ojus Doshi");
+                }if(scroll_pos > toppl) {
+                    $("#title").text("Prin Limphongpand");
+                }if(scroll_pos > topss) {
+                    $("#title").text("Soohyun Shin");
+                }if(scroll_pos > toprh) {
+                    $("#title").text("Rachel Harris");
+                }if(scroll_pos > topap) {
+                    $("#title").text("Amanda Pickens");
+                }if(scroll_pos > topkw) {
+                    $("#title").text("Kelly Walters");
+                }if(scroll_pos > topcf) {
+                    $("#title").text("Conrad Fulbrook");
+                }if(scroll_pos > topjb) {
+                    $("#title").text("Jamar Bromley");
+                }if(scroll_pos > topvj) {
+                    $("#title").text("Viviane Jalil");
+                }if(scroll_pos > topmm) {
+                    $("#title").text("Michael McDermott");
+                }if(scroll_pos > topkg) {
+                    $("#title").text("Kyle Green");
+                    console.log(topkg);
+                } 
+            });
     	});
 	</script>
     <script type="text/javascript">
