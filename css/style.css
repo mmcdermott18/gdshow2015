@@ -16,12 +16,12 @@ header {
 
 #headleft {
 	float: left;
-	margin: 25px 0 0 30px;
+	margin: 25px 0 0 25px;
 }
 
 #headright {
 	float: right;
-	margin: 25px 30px 0 0;
+	margin: 25px 25px 0 0;
 }
 
 footer {
@@ -36,8 +36,12 @@ footer {
 }
 
 #names {
-	margin: 0 30px;
+	margin: 0 25px;
 	padding: 15vh 0;
+}
+
+#title {
+
 }
 
 h1 {
