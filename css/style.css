@@ -129,6 +129,7 @@ span.space {
 @media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 16px;
+		margin: 0;
 	}
 	h2 {
 		font-size: 16px;
@@ -149,7 +150,7 @@ span.space {
 		font-size: 30px;
 	}
 	header {
-		height: auto;
+		height: 50px;
 	}
 
 	#headleft {
