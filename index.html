@@ -42,19 +42,19 @@
 				<p>The visual essays herein frame our line of thinking, making evident our connections and adjacencies— highlighting the complexity and fluidity of the field of graphic design today.</p>
 			</div>
 		</div>
-		<img id="cw" src="img/cw.jpg">
-		<img id="mk" src="img/mk.jpg">
-		<img id="od" src="img/od.jpg">
-		<img id="pl" src="img/pl.jpg">
-		<img id="ss" src="img/ss.jpg">
-		<img id="rh" src="img/rh.jpg">
-		<img id="ap" src="img/ap.jpg">
-		<img id="kw" src="img/kw.jpg">
-		<img id="cf" src="img/cf.jpg">
-		<img id="jb" src="img/jb.jpg">
-		<img id="vj" src="img/vj.jpg">
-		<img id="mm" src="img/mm.jpg">
-		<img id="kg" src="img/kg.jpg">
+		<div id="cw"><img src="img/cw.jpg"></div>
+		<div id="mk"><img src="img/mk.jpg"></div>
+		<div id="od"><img src="img/od.jpg"></div>
+		<div id="pl"><img src="img/pl.jpg"></div>
+		<div id="ss"><img src="img/ss.jpg"></div>
+		<div id="rh"><img src="img/rh.jpg"></div>
+		<div id="ap"><img src="img/ap.jpg"></div>
+		<div id="kw"><img src="img/kw.jpg"></div>
+		<div id="cf"><img src="img/cf.jpg"></div>
+		<div id="jb"><img src="img/jb.jpg"></div>
+		<div id="vj"><img src="img/vj.jpg"></div>
+		<div id="mm"><img src="img/mm.jpg"></div>
+		<div id="kg"><img src="img/kg.jpg"></div>
 	</div>
 	<!-- </div> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
@@ -71,77 +71,66 @@
     </script>
     <script type="text/javascript">
     	$( document ).ready(function() {
-    		var topcw = $('#cw').position();
+    		var topcw = $('#cw').position().top;
     		console.log('cw = ' + topcw);
-    		var topmk = $('#mk').position();
+    		var topmk = $('#mk').position().top;
     		console.log('mk = ' + topmk)
-    		var topod = $('#od').position();
+    		var topod = $('#od').position().top;
     		console.log('od = ' + topod)
-    		var toppl = $('#pl').position();
+    		var toppl = $('#pl').position().top;
     		console.log('pl = ' + toppl)
-    		var topss = $('#ss').position();
+    		var topss = $('#ss').position().top;
     		console.log('ss = ' + topss)
-    		var toprh = $('#rh').position();
+    		var toprh = $('#rh').position().top;
     		console.log('rh = ' + toprh)
-    		var topap = $('#ap').position();
+    		var topap = $('#ap').position().top;
     		console.log('ap = ' + topap)
-    		var topkw = $('#kw').position();
+    		var topkw = $('#kw').position().top;
     		console.log('kw = ' + topkw)
-    		var topcf = $('#cf').position();
+    		var topcf = $('#cf').position().top;
     		console.log('cf = ' + topcf)
-    		var topjb = $('#jb').position();
+    		var topjb = $('#jb').position().top;
     		console.log('jb = ' + topjb)
-    		var topvj = $('#vj').position();
+    		var topvj = $('#vj').position().top;
     		console.log('vj = ' + topvj)
-    		var topmm = $('#mm').position();
+    		var topmm = $('#mm').position().top;
     		console.log('mm = ' + topmm)
-    		var topkg = $('#kg').position();
+    		var topkg = $('#kg').position().top;
     		console.log('kg = ' + topkg)
     		var scroll_pos = 0;
+    		console.log('scroll position = ' + scroll_pos)
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
-                if(scroll_pos < topcw.top) {
+                console.log('scroll position = ' + scroll_pos)
+                if(scroll_pos < topcw) {
                     $("#title").text("Parallel Practices");
-                    console.log(topcw.top);
-                }if(scroll_pos > topcw.top) {
+                }if(scroll_pos > topcw) {
                     $("#title").text("Christina Webb");
-                    console.log(topcw.top);
-                }if(scroll_pos > topmk.top) {
+                }if(scroll_pos > topmk) {
                     $("#title").text("Minkyoung Kim");
-                    console.log(topmk.top);
-                }if(scroll_pos > topod.top) {
+                }if(scroll_pos > topod) {
                     $("#title").text("Ojus Doshi");
-                    console.log(topod.top);
-                }if(scroll_pos > toppl.top) {
+                }if(scroll_pos > toppl) {
                     $("#title").text("Prin Limphongpand");
-                    console.log(toppl.top);
-                }if(scroll_pos > topss.top) {
+                }if(scroll_pos > topss) {
                     $("#title").text("Soohyun Shin");
-                    console.log(topss.top);
-                }if(scroll_pos > toprh.top) {
+                }if(scroll_pos > toprh) {
                     $("#title").text("Rachel Harris");
-                    console.log(toprh.top);
-                }if(scroll_pos > topap.top) {
+                }if(scroll_pos > topap) {
                     $("#title").text("Amanda Pickens");
-                    console.log(topap.top);
-                }if(scroll_pos > topkw.top) {
+                }if(scroll_pos > topkw) {
                     $("#title").text("Kelly Walters");
-                    console.log(topkw.top);
-                }if(scroll_pos > topcf.top) {
+                }if(scroll_pos > topcf) {
                     $("#title").text("Conrad Fulbrook");
-                    console.log(topcf.top);
-                }if(scroll_pos > topjb.top) {
+                }if(scroll_pos > topjb) {
                     $("#title").text("Jamar Bromley");
-                    console.log(topjb.top);
-                }if(scroll_pos > topvj.top) {
+                }if(scroll_pos > topvj) {
                     $("#title").text("Viviane Jalil");
-                    console.log(topvj.top);
-                }if(scroll_pos > topmm.top) {
+                }if(scroll_pos > topmm) {
                     $("#title").text("Michael McDermott");
-                    console.log(topmm.top);
-                }if(scroll_pos > topkg.top) {
+                }if(scroll_pos > topkg) {
                     $("#title").text("Kyle Green");
-                    console.log(topkg.top);
+                    console.log(topkg);
                 } 
             });
     	});
