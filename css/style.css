@@ -139,7 +139,7 @@ span.space {
 		font-size: .7em;
 	}
 	#names {
-		padding-top: 8vh;
+		padding-top: 9vh;
 		padding-bottom: 20px;
 	}
 	footer h2 {
@@ -161,7 +161,7 @@ span.space {
 	}
 
 	#headleft h1, #headright h1 {
-		font-size: 20px;
+		font-size: 16px;
 		margin: 0;
 	}
 
