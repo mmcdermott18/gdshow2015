@@ -90,7 +90,7 @@ h2 {
 
 a:hover {
 	color: rgb(0,255,0);
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 #cw, #mk, #od, #pl, #ss, #rh, #ap, #kw, #cf, #jb, #vj, #mm, #kg {
@@ -99,7 +99,7 @@ a:hover {
 	display: inline-block;
 }
 
-#mma {
+#mma,#apa {
 	position: fixed;
 	top: 0;
 	left: 0;
