@@ -115,7 +115,8 @@ a:hover {
 	margin: 25px;
 }
 
-#mmal {
+#cwal, #mkal, #odal, #plal, #ssal, #rhal, #apal, #kwal, #cfal, #jbal, #vjal, #mmal, #kgal {
+	text-decoration: underline;
 }
 
 img {
